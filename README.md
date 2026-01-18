@@ -39,6 +39,7 @@
 ```
 meihua-yishu/
 ├── SKILL.md                      # Main skill documentation
+├── ETHICS.md                     # Ethical guidelines for divination
 ├── README.md                     # This file
 ├── README.zh-TW.md              # Traditional Chinese README
 ├── LICENSE                       # CC BY-NC-SA 4.0 License

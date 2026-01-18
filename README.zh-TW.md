@@ -39,6 +39,7 @@
 ```
 meihua-yishu/
 ├── SKILL.md                      # 主要技能說明文件
+├── ETHICS.md                     # 占卜倫理指引
 ├── README.md                     # 英文說明
 ├── README.zh-TW.md              # 本文件
 ├── LICENSE                       # CC BY-NC-SA 4.0 授權
