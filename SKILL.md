@@ -159,12 +159,9 @@ description: Meihua Yishu (梅花易數) Plum Blossom I Ching divination skill. 
 
 #### 方法一：Python 腳本（推薦）
 
-`scripts/meihua_calc.py` 內建農曆轉換功能（需安裝 `lunardate` 庫）：
+`scripts/meihua_calc.py` 內建農曆轉換功能（無需外部依賴）：
 
 ```bash
-# 安裝依賴
-pip install lunardate
-
 # 轉換日期
 python meihua_calc.py convert 2024 1 18
 # 輸出: 西曆: 2024年1月18日 → 農曆: 2023年12月8日
