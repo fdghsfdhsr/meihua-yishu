@@ -129,7 +129,7 @@ This skill can be adapted for use with other AI platforms:
 
 #### Google Gemini (Gems)
 
-For Gems UI navigation, see [official Gemini documentation](https://support.google.com/gemini/answer/14575153).
+For Gems UI navigation, see [official Gemini documentation](https://support.google.com/gemini/answer/15236321).
 
 **Setup (10 files total):**
 
