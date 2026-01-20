@@ -129,7 +129,7 @@ meihua-yishu/
 
 #### Google Gemini（Gems）
 
-Gems 操作介面請參考 [官方說明文件](https://support.google.com/gemini/answer/15236321)。
+Gems 操作介面請參考 [官方說明文件](https://support.google.com/gemini/answer/15236321?hl=zh-Hant)。
 
 **設定方式（共 10 個檔案）：**
 
