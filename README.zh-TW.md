@@ -310,6 +310,8 @@ python scripts/meihua_calc.py num 6 8 3
 - **非商業性** — 您不得將本素材用於商業目的
 - **相同方式分享** — 衍生作品必須以相同授權條款散布
 
+**商業授權：** 如需商業用途，請聯繫 muyen.lee@gmail.com
+
 詳見 [LICENSE](LICENSE) 文件。
 
 ## 貢獻

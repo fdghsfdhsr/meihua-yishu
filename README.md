@@ -310,6 +310,8 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial-Shar
 - **NonCommercial** — You may not use the material for commercial purposes
 - **ShareAlike** — Derivatives must be distributed under the same license
 
+**Commercial Licensing:** For commercial use, please contact muyen.lee@gmail.com
+
 See [LICENSE](LICENSE) for details.
 
 ## Contributing
