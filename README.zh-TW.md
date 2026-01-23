@@ -92,11 +92,13 @@ meihua-yishu/
 │   ├── yaoci.md                 # 384條爻辭全文
 │   ├── zhouyi-zhuan.md          # 彖傳象傳參考
 │   ├── bagua-wanwu.md           # 八卦類象+萬物賦
-│   ├── case-studies-expanded.md # 經典斷卦案例
+│   ├── hexagram-relationships.md # 卦象關係+統計分析
+│   ├── hexagram-strategy.md     # 六十四卦策略（留/走決策）
 │   ├── ying-guides.md           # 十應+外應指南
 │   ├── yingqi-calc.md           # 應期計算指南
 │   ├── 18-divinations.md        # 十八類分占法
-│   └── cezi-method.md           # 測字法（拆字占）
+│   ├── case-studies-expanded.md # 經典斷卦案例（選用）
+│   └── cezi-method.md           # 測字法（選用）
 └── scripts/
     └── meihua_calc.py           # Python 起卦計算工具
 ```
@@ -147,19 +149,23 @@ git clone https://github.com/muyen/meihua-yishu.git .claude/skills/meihua-yishu
 
 > 詳細介面操作請參考 [官方說明文件](https://support.google.com/gemini/answer/15236321?hl=zh-Hant)
 
-**上傳檔案清單（9 個）：**
+**上傳檔案清單（9 必要 + 2 選用）：**
 
-| 檔案 | 說明 |
-|------|------|
-| `64gua.md` | 六十四卦詳解 |
-| `yaoci.md` | 384 條爻辭 |
-| `zhouyi-zhuan.md` | 彖傳象傳 |
-| `bagua-wanwu.md` | 八卦類象+萬物賦 |
-| `ying-guides.md` | 十應+外應指南 |
-| `yingqi-calc.md` | 應期計算 |
-| `18-divinations.md` | 十八類分占法 |
-| `case-studies-expanded.md` | 經典案例 |
-| `cezi-method.md` | 測字法 |
+| 檔案 | 說明 | 優先級 |
+|------|------|--------|
+| `64gua.md` | 六十四卦詳解 | 必要 |
+| `yaoci.md` | 384 條爻辭 | 必要 |
+| `zhouyi-zhuan.md` | 彖傳象傳 | 必要 |
+| `bagua-wanwu.md` | 八卦類象+萬物賦 | 必要 |
+| `hexagram-relationships.md` | 卦象關係統計分析 | 必要 |
+| `hexagram-strategy.md` | 六十四卦策略（留/走決策） | 必要 |
+| `ying-guides.md` | 十應+外應指南 | 必要 |
+| `yingqi-calc.md` | 應期計算 | 必要 |
+| `18-divinations.md` | 十八類分占法 | 必要 |
+| `case-studies-expanded.md` | 經典案例 | 選用 |
+| `cezi-method.md` | 測字法 | 選用 |
+
+> **注意：** Gemini Gems 有 10 個檔案上限。上傳 9 個必要檔案 + SKILL.md 即可。選用檔案視空間添加。
 
 #### 中國大模型
 
@@ -179,9 +185,10 @@ git clone https://github.com/muyen/meihua-yishu.git .claude/skills/meihua-yishu
 
 1. 將 `SKILL.md` 作為系統提示
 2. 根據上下文窗口大小加入相關參考檔案：
-   - 基本：`64gua.md`、`bagua-symbols.md`
+   - 基本：`64gua.md`、`bagua-wanwu.md`、`hexagram-relationships.md`
+   - 策略：`hexagram-strategy.md`（數據驅動的留/走決策）
    - 爻辭解讀：`yaoci.md`
-   - 專門占法：`18-divinations.md`、`shiying-guide.md`
+   - 專門占法：`18-divinations.md`、`ying-guides.md`
    - 測字分析：`cezi-method.md`
 
 3. 或合併所有檔案為單一檔案：

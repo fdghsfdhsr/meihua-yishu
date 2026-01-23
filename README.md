@@ -92,11 +92,13 @@ meihua-yishu/
 │   ├── yaoci.md                 # 384 Line texts
 │   ├── zhouyi-zhuan.md          # Tuan & Xiang commentaries
 │   ├── bagua-wanwu.md           # Bagua correspondences + verses
-│   ├── case-studies-expanded.md # Classic divination cases
+│   ├── hexagram-relationships.md # Hexagram relationships + statistical analysis
+│   ├── hexagram-strategy.md     # 64-hexagram strategy (stay/leave decisions)
 │   ├── ying-guides.md           # Ten responses + external signs
 │   ├── yingqi-calc.md           # Timing calculation guide
 │   ├── 18-divinations.md        # 18 types of specific readings
-│   └── cezi-method.md           # Character analysis (測字法)
+│   ├── case-studies-expanded.md # Classic divination cases (optional)
+│   └── cezi-method.md           # Character analysis (optional)
 └── scripts/
     └── meihua_calc.py           # Python calculation tool
 ```
@@ -147,19 +149,23 @@ This skill can be adapted for use with other AI platforms:
 
 > For detailed UI navigation, see [official Gemini documentation](https://support.google.com/gemini/answer/15236321)
 
-**Files to upload (9 files):**
+**Files to upload (9 essential + 2 optional):**
 
-| File | Description |
-|------|-------------|
-| `64gua.md` | 64 hexagrams guide |
-| `yaoci.md` | 384 line texts |
-| `zhouyi-zhuan.md` | Tuan & Xiang commentaries |
-| `bagua-wanwu.md` | Bagua correspondences + verses |
-| `ying-guides.md` | Ten responses + external signs |
-| `yingqi-calc.md` | Timing calculation |
-| `18-divinations.md` | 18 specific reading types |
-| `case-studies-expanded.md` | Classic divination cases |
-| `cezi-method.md` | Character analysis method |
+| File | Description | Priority |
+|------|-------------|----------|
+| `64gua.md` | 64 hexagrams guide | Essential |
+| `yaoci.md` | 384 line texts | Essential |
+| `zhouyi-zhuan.md` | Tuan & Xiang commentaries | Essential |
+| `bagua-wanwu.md` | Bagua correspondences + verses | Essential |
+| `hexagram-relationships.md` | Statistical analysis of hexagram relationships | Essential |
+| `hexagram-strategy.md` | 64-hexagram strategy (stay/leave decisions) | Essential |
+| `ying-guides.md` | Ten responses + external signs | Essential |
+| `yingqi-calc.md` | Timing calculation | Essential |
+| `18-divinations.md` | 18 specific reading types | Essential |
+| `case-studies-expanded.md` | Classic divination cases | Optional |
+| `cezi-method.md` | Character analysis method | Optional |
+
+> **Note:** Gemini has a 10-file limit for Gems. Upload the 9 essential files + SKILL.md. Add optional files if you have room.
 
 #### Chinese LLMs (中國大模型)
 
@@ -179,9 +185,10 @@ For any LLM that supports system prompts:
 
 1. Use `SKILL.md` as the system prompt
 2. Include relevant reference files based on context window size:
-   - Essential: `64gua.md`, `bagua-symbols.md`
+   - Essential: `64gua.md`, `bagua-wanwu.md`, `hexagram-relationships.md`
+   - For strategy: `hexagram-strategy.md` (data-driven stay/leave decisions)
    - For line readings: `yaoci.md`
-   - For specialized readings: `18-divinations.md`, `shiying-guide.md`
+   - For specialized readings: `18-divinations.md`, `ying-guides.md`
    - For character analysis: `cezi-method.md`
 
 3. Or concatenate files for a single-file approach:
