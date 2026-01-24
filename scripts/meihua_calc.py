@@ -551,6 +551,16 @@ def get_hexagram_strategy(hex_num: int) -> dict:
     }
 
 
+STRATEGY_NEXT_STEPS = {
+    "留": "【下一步】維持現狀，不宜改變。目前位置有利，變動反而損失。",
+    "走": "【下一步】積極改變，離開當前狀態。此位置不利久留，宜主動求變。",
+    "守": "【下一步】穩守不動，靜觀其變。位置尚可，不主動出擊，等待時機。",
+    "變": "【下一步】必須改變，不變則困。當前困境需主動突破，猶豫更糟。",
+    "慎": "【下一步】謹慎行事，小心陷阱。周圍環境不佳，任何動作都要三思。",
+    "觀": "【下一步】觀察局勢，再做決定。情況中等，需要更多信息才能判斷。",
+}
+
+
 def print_strategy_advice(hex_num: int):
     """打印卦的策略建議"""
     strategy = get_hexagram_strategy(hex_num)
@@ -563,6 +573,11 @@ def print_strategy_advice(hex_num: int):
     print(f"  吉率：{strategy['ji_rate']}%")
     if strategy['change_path']:
         print(f"  變卦路徑：{strategy['change_path']}")
+
+    # 輸出具體下一步建議
+    advice = strategy['advice']
+    if advice in STRATEGY_NEXT_STEPS:
+        print(f"\n{STRATEGY_NEXT_STEPS[advice]}")
 
 
 def print_result(result: Dict):
